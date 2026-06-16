@@ -1,0 +1,17 @@
+{
+  "name": "udir-moodle/atto_templates4u",
+  "description": "Templates4U — Composer/Packagist mirror of the Moodle plugin atto_templates4u, auto-updated from the Moodle plugins directory.",
+  "type": "moodle-atto",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://moodle.org/plugins/atto_templates4u",
+  "require": {
+    "composer/installers": "~1.0 || ~2.0",
+    "moodle/moodle": "3.7.* || 3.8.* || 3.9.* || 3.10.* || 3.11.* || 4.0.* || 4.1.*"
+  },
+  "extra": {
+    "installer-name": "templates4u",
+    "moodle-composer": {
+      "component": "atto_templates4u"
+    }
+  }
+}
